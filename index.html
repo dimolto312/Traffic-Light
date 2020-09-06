@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Traffic Light Status</title>
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/dimolto312/Traffic-Light/master/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/dimolto312/Traffic-Light/master/YouTubePopUp.css">
 <style>
   
   a {
@@ -78,7 +79,7 @@
           <td>15</td><td>-</td><td>✔</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>[20200901_145742]</td>
         </tr>
         <tr>
-          <td>16 [X]</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Expected</td><td>[No Video Exist]</td>
+          <td>16</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>✔</td><td>[No Video Exist]</td>
         </tr>
         <tr>
           <td>17</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>✔</td><td>-</td><td>[20200905_165610]</td>
@@ -99,5 +100,13 @@
     </table>
     <h3> ※ You can click the video to view it&nbsp;&nbsp;/&nbsp;&nbsp;Some videos are not supported</h3>
     <script src="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-c8fc0dab518dd11ba9d0dfe5524a13d867c1cd10/blogs/plugins/RainbowLink/rainbow.js?_version_=tistory-c8fc0dab518dd11ba9d0dfe5524a13d867c1cd10" type="text/javascript"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/dimolto312/Traffic-Light/master/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/dimolto312/Traffic-Light/master/YouTubePopUp.jquery.js"></script>
+    <script type="text/javascript">
+      jQuery(function(){
+        jQuery("a.bla-1").YouTubePopUp();
+        jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+      });
+    </script>
   </body>
 </html>
