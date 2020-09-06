@@ -1,9 +1,10 @@
-
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="utf-8">
     <title>Traffic Light Status</title>
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/dimolto312/Traffic-Light/master/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/dimolto312/Traffic-Light/master/YouTubePopUp.css">
 <style>
   
   a {
@@ -51,13 +52,13 @@
         <tr>
         </tr>
         <tr>
-          <td>07</td><td>-</td><td>-</td><td>✔</td><td>-</td><td>-</td><td>-</td><td>-</td><td><a href="https://www.youtube.com/watch?v=uJe92h8i6ow&list=PLq9MzpRzUkEUbD3C4VhDf-Gn3P4OYEHox">[20200902_065708]</a></td>
+          <td>07</td><td>-</td><td>-</td><td>✔</td><td>-</td><td>-</td><td>-</td><td>-</td><td><a class="bla" href="https://www.youtube.com/watch?v=uJe92h8i6ow&list=PLq9MzpRzUkEUbD3C4VhDf-Gn3P4OYEHox">[20200902_065708]</a></td>
         </tr>
         <tr>
-          <td>08</td><td>-</td><td>✔</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td><a href="https://www.youtube.com/watch?v=gmgwT7rBYqo&list=PLq9MzpRzUkEUbD3C4VhDf-Gn3P4OYEHox">[20200901_075730]</a></td>
+          <td>08</td><td>-</td><td>✔</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td><a class="bla" href="https://www.youtube.com/watch?v=gmgwT7rBYqo&list=PLq9MzpRzUkEUbD3C4VhDf-Gn3P4OYEHox">[20200901_075730]</a></td>
         </tr>
         <tr>
-          <td>09</td><td>✔</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td><a href="https://www.youtube.com/watch?v=sXFhZjGwdB8&list=PLq9MzpRzUkEUbD3C4VhDf-Gn3P4OYEHox">[20200831_085553]</a></td>
+          <td>09</td><td>✔</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td><a class="bla" href="https://www.youtube.com/watch?v=sXFhZjGwdB8&list=PLq9MzpRzUkEUbD3C4VhDf-Gn3P4OYEHox">[20200831_085553]</a></td>
         </tr>
         <tr>
           <td>10</td><td>✔</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>[20200831_095838]</td>
@@ -78,13 +79,13 @@
           <td>15</td><td>-</td><td>✔</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>[20200901_145742]</td>
         </tr>
         <tr>
-          <td>16</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>✔</td><td>[20200906_155847]</td>
+          <td>16</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>✔</td><td>[No Video Exist]</td>
         </tr>
         <tr>
           <td>17</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>✔</td><td>-</td><td>[20200905_165610]</td>
         </tr>
         <tr>
-          <td>18</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>✔</td><td>[20200906_175739]</td>
+          <td>18 [X]</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Expected</td><td>[No Video Exist]</td>
         </tr>
         <tr>
           <td>19</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>✔</td><td>-</td><td>[20200905_185842]</td>
@@ -98,6 +99,13 @@
       </tbody>
     </table>
     <h3> ※ You can click the video to view it&nbsp;&nbsp;/&nbsp;&nbsp;Some videos are not supported</h3>
-    <script src="https://t1.daumcdn.net/tistory_admin/assets/blog/tistory-c8fc0dab518dd11ba9d0dfe5524a13d867c1cd10/blogs/plugins/RainbowLink/rainbow.js?_version_=tistory-c8fc0dab518dd11ba9d0dfe5524a13d867c1cd10" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/dimolto312/Traffic-Light/master/RainbowLink/rainbow.js"></script>
+    <script src="https://raw.githubusercontent.com/dimolto312/Traffic-Light/master/jquery-1.12.1.min.js"></script>
+    <script src="https://raw.githubusercontent.com/dimolto312/Traffic-Light/master/YouTubePopUp.jquery.js"></script>
+    <script>
+      jQuery(function(){
+        jQuery("a.bla").YouTubePopUp( { autoplay: 0 } );
+      });
+    </script>
   </body>
 </html>
