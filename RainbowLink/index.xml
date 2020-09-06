@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plugin version="1.0">
+	<title xml:lang="ko">무지개 링크</title>
+	<title xml:lang="en">RainbowLink</title>
+	<title xml:lang="ja">虹リンク</title>
+	<link>http://mirinea.com</link>
+	<version>1.1</version>
+	<description xml:lang="ko">페이지의 모든 링크에 무지개 효과를 줍니다.</description>
+	<description xml:lang="en">This plugin adds rainbow effect to all links on the page.</description>
+	<description xml:lang="ja">ページのすべてのリンクに虹效果を与えます。</description>
+	<license>GPL</license>
+	<author link="http://mirinea.com"><![CDATA[JustKidding]]></author>
+	<safety changeData="no" exposeData="no" accessLocal="no" accessRemote="no" accessRaw="no" />
+	<requirements>
+		<tattertools>1.0.6</tattertools>
+		<textcube>1.5</textcube>
+	</requirements>
+	<binding>
+		<tag name="SKIN_body_start" handler="insertRainbowLink" />
+	</binding>
+</plugin>
