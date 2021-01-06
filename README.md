@@ -8,8 +8,8 @@
 <a href="#how-to-use">How To Use</a> •
 </p>
 
-## Features 
-- 
+## Features
+※ 나중에...
 
 ## How-To
-- 
+※ 나중에 작성할게요...
