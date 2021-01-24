@@ -5,7 +5,7 @@
 
 <p align="center">
 • <a href="#features">Features</a> •
-<a href="#how-to-use">How-To</a> •
+<a href="#How-To">How-To</a> •
 </p>
 
 ## Features
